@@ -26,7 +26,14 @@
     <!-- Home -->
     <section id="home" class="page active">
       <h1>Explora el mundo con Expres Junior</h1>
-      <p>Vuela desde Ica, Perú a destinos internacionales soñados.</p>
+ <p>
+  Vuela desde Ica, Perú hacia destinos internacionales soñados y vive experiencias inolvidables. 
+  No solo te llevamos a conocer los lugares más emblemáticos del mundo, 
+  también te acompañamos como <strong>guías turísticos culturales</strong>, 
+  revalorizando el aprendizaje de cada ciudad, su historia, su gente y sus costumbres. 
+  Convierte cada viaje en una aventura enriquecedora que combina turismo y cultura.
+</p>
+
       <div style="text-align: center; margin: 40px 0;">
   <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2400&auto=format&fit=crop" 
        alt="Paisaje montañoso con colores suaves" 
@@ -79,11 +86,24 @@
       </div>
     </section>
 
-    <!-- Detalles de Destinos -->
-    <section id="ecuador" class="page destino">
+<style>
+  .destino-img {
+    width: 400px;   /* tamaño fijo */
+    height: 300px;  /* mismo alto para todas */
+    object-fit: cover; /* recorta sin deformar */
+    border-radius: 15px; /* bordes redondeados */
+    border: 3px solid #ccc; /* marco */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3); /* sombra elegante */
+    display: block;
+    margin: 0 auto 15px auto; /* centrado con espacio abajo */
+  }
+</style>
+
+<!-- ECUADOR -->
+<section id="ecuador" class="page destino">
   <h2>Ecuador</h2>
   <div class="contenido-destino">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/La_Mitad_del_Mundo.jpg" alt="Ecuador" class="img-redonda">
+    <img class="destino-img" src="https://travelfine.es/wp-content/uploads/2023/04/Que-ver-y-hacer-en-Ecuador.jpg" alt="qué ver en ecuador">
     <div>
       <p>
         Descubre la belleza de Ecuador: recorre Quito, su capital colonial declarada Patrimonio de la Humanidad, 
@@ -101,10 +121,11 @@
   </div>
 </section>
 
+<!-- NUEVA YORK -->
 <section id="newyork" class="page destino">
   <h2>Nueva York</h2>
   <div class="contenido-destino">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Times_Square_New_York_City.jpg" alt="Nueva York" class="img-redonda">
+    <img class="destino-img" src="https://nyc.eu/wp-content/uploads/2015/07/New_York_City-scaled.jpg" alt="New York City">
     <div>
       <p>
         La Gran Manzana te espera con sus luces y rascacielos. 
@@ -122,10 +143,11 @@
   </div>
 </section>
 
+<!-- MACHU PICCHU -->
 <section id="machupicchu" class="page destino">
   <h2>Machu Picchu</h2>
   <div class="contenido-destino">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Machu_Picchu%2C_Peru.jpg" alt="Machu Picchu" class="img-redonda">
+    <img class="destino-img" src="https://image-tc.galaxy.tf/wijpeg-7ellqz2uqv2l9plk30futx9jr/experiencias-machu-picchu_wide.jpg?crop=0%2C63%2C1200%2C675" alt="Machu Picchu">
     <div>
       <p>
         Vive la magia de <strong>Machu Picchu</strong>, una de las siete maravillas del mundo moderno. 
@@ -142,10 +164,11 @@
   </div>
 </section>
 
+<!-- TOKYO -->
 <section id="tokyo" class="page destino">
   <h2>Tokyo</h2>
   <div class="contenido-destino">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Tokyo_Tower_and_around_Skyscrapers.jpg" alt="Tokyo" class="img-redonda">
+    <img class="destino-img" src="https://content-viajes.nationalgeographic.com.es/medio/2024/09/03/tokio_133ce43a_1284581217_240903122054_1280x854.jpg" alt="tokyo">
     <div>
       <p>
         La capital de Japón combina tradición y modernidad. 
@@ -163,10 +186,11 @@
   </div>
 </section>
 
+<!-- PARÍS -->
 <section id="paris" class="page destino">
   <h2>París</h2>
   <div class="contenido-destino">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg" alt="París" class="img-redonda">
+    <img class="destino-img" src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg" alt="París">
     <div>
       <p>
         La ciudad del amor te espera con su arte, cultura y romance. 
@@ -184,10 +208,11 @@
   </div>
 </section>
 
+<!-- BARCELONA -->
 <section id="barcelona" class="page destino">
   <h2>Barcelona</h2>
   <div class="contenido-destino">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Sagrada_Familia_01.jpg" alt="Barcelona" class="img-redonda">
+    <img class="destino-img" src="https://www.barcelo.com/guia-turismo/wp-content/uploads/que-visitar-en-barcelona-1.jpg" alt="Barcelona">
     <div>
       <p>
         Barcelona es una joya del Mediterráneo. 
@@ -204,6 +229,7 @@
     </div>
   </div>
 </section>
+
 
 <style>
   .contenido-destino {
